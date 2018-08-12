@@ -85,66 +85,52 @@
   </header>
 
   <main>
-    <section id="second-screen" class="white-space-160">
+    <section class="white-space-160">
       <div class="container">
-        <div class="col-12 mt-5">
-          <div class="row">
-            <div class="col-md-6">
-                <div class="row home1-about text-center">
-                    <div class="col-12 col-md-8 offset-md-2 home1-about__info">
-                      <h1>Get In Touch</h1>
-                      <div>
-                        <p class="text-dark">
-                            Nulla porta dolor. Cras dapibus. Donec vitae orci sed dolor rutrum auctor. 
-                            Ut non enim eleifend felis pretium feugiat. 
-                            Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
-                        </p>
-                      </div>
-                      <div>
-                          <p class="footer-contact__heading">Start a conversation</p>
-                          <a href="index.html#">info@dmfitout.com</a>
-                          <br>
-                          <a href="index.html#">+44 28 9147 3535</a>
-                        </div>
-                    </div>
-                  </div>
+        <div class="row menu-space">
+          <div class="col-12">
+            <h1 class="section__heading">Get In Touch</h1>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="contact__left">
+              <div class="contact__item">
+                <p class="contact__heading">Visit our workshop</p>
+                <p class="contact__info">Unit 24 Dunlop Industrial Park, 8 Balloo Drive, Bangor BT19 7QY
+                </p>
+              </div>
+              <div class="contact__item">
+                <p class="contact__heading">Start a conversation</p>
+                <a href="contacts.html#" class="contact__link">info@dmfitout.com</a>
+                <a href="contacts.html#" class="contact__link">+44 28 9147 3535</a>
+              </div>
+              <div class="contact__item">
+                <p class="contact__heading">Social</p>
+                <a href="contacts.html#" class="contact__link">Facebook</a>
+              </div>
             </div>
-            <div class="col-md-6">
-                <form class="">
-                    <div class="form-group row">
-                      <label for="name" class="col-4 col-form-label">Name</label> 
-                      <div class="col-8">
-                        <input id="name" name="name" type="text" class="form-control here" required="required">
-                      </div>
-                    </div>
-                    <div class="form-group row">
-                      <label for="email" class="col-4 col-form-label">Email</label> 
-                      <div class="col-8">
-                        <input id="email" name="email" type="text" class="form-control here" required="required">
-                      </div>
-                    </div>
-                    <div class="form-group row">
-                      <label for="telephone" class="col-4 col-form-label">Telephone</label> 
-                      <div class="col-8">
-                        <input id="telephone" name="telephone" type="text" class="form-control here">
-                      </div>
-                    </div>
-                    <div class="form-group row">
-                      <label for="textarea" class="col-4 col-form-label">Message</label> 
-                      <div class="col-8">
-                        <textarea id="textarea" name="textarea" cols="40" rows="10" class="form-control"></textarea>
-                      </div>
-                    </div> 
-                    <div class="form-group row">
-                      <div class="offset-4 col-8">
-                        <button name="submit" type="submit" class="button button-secondary button-small">Submit</button>
-                      </div>
-                    </div>
-                  </form>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="col-12 col-md-6">
+            <div class="contact__right">
+              <div class="contact-form">
+                <div class="contact-form__input">
+                  <input type="text" placeholder="Full name *" required="required" />
+                </div>
+                <div class="contact-form__input">
+                  <input type="text" placeholder="Email address *" required="required" />
+                </div>
+                <div class="contact-form__input">
+                  <input type="text" placeholder="Telephone *" required="required" />
+                </div>
+                <div class="contact-form__input">
+                  <textarea placeholder="Message *" required="required"></textarea>
+                </div>
+                <button class="button button-primary" type="submit">Send message</button>
+              </div>
             </div>
           </div>
         </div>
-
       </div>
     </section>
   </main>
